@@ -1,9 +1,9 @@
-package Java_Package_Practice;
+package Java_Package_Practice.Java_Programs_Practice_04112024;
 
 public class Reverse_String {
 
     public static void main(String[] args) {
-        String s = "Hari nadh babu";
+        String s = "Hari";
         char [] chars = s.toCharArray();
         String reverse = "";
 
@@ -11,7 +11,6 @@ public class Reverse_String {
         {
             reverse = reverse + chars[i];
         }
-
         System.out.println("The Reverse String is: "+reverse);
     }
 }
